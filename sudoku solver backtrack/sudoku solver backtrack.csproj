@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>sudoku_solver_backtrack</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Sudoku grid.png" />
+    <None Remove="images\sudokuIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Sudoku grid.png" />
+    <Resource Include="images\sudokuIcon.png" />
+  </ItemGroup>
+
+</Project>
